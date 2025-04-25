@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis.Dev</title>
+  <link rel="stylesheet" href="style.css" />
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Luis.Dev</div>
+    <button id="darkModeToggle" class="dark-mode-toggle">🌙</button>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1 id="typing-text"></h1><span class="cursor">|</span>
+      <h2 class="hero-subtitle">Desenvolvedor Front-End</h2>
+      <p class="hero-description">
+        Crio interfaces bonitas, funcionais e responsivas. Minha missão é transformar ideias em experiências digitais incríveis.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projetos" class="btn">Ver Projetos</a>
+        <a href="#contato" class="btn btn-secondary">Entrar em Contato</a>
+      </div>
+      <div class="scroll-down">
+        <span>↓</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="sobre" class="about">
+    <div class="about-content">
+      <h2 class="section-title">Sobre Mim</h2>
+      <p class="about-description">
+        Olá! Eu sou o Luis, um desenvolvedor Front-End apaixonado por criar experiências digitais incríveis. Meu foco é sempre melhorar a usabilidade e performance das interfaces. Gosto de trabalhar com as melhores práticas de desenvolvimento para garantir que tudo funcione bem, tanto no desktop quanto no mobile.
+      </p>
+    </div>
+  </section>
+
+  <!-- Seção Habilidades -->
+  <section id="habilidades" class="skills-section">
+    <div class="skills-content">
+      <h3 class="skills-title">Minhas Habilidades</h3>
+      <div class="skills">
+        <div class="skill-item">HTML</div>
+        <div class="skill-item">CSS</div>
+        <div class="skill-item">JavaScript</div>
+        <div class="skill-item">React</div>
+        <div class="skill-item">Node.js</div>
+        <div class="skill-item">Git</div>
+      </div>
+    </div>
+  </section>
+  <section id="projetos" class="projects">
+    <div class="projects-content">
+      <h2 class="section-title">Meus Projetos</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-thumb"></div>
+          <h3 class="project-title">Bruna Guimarães</h3>
+          <p class="project-description">psicologa- clinica</p>
+          <div class="project-buttons">
+            <a href="#" class="btn" target="_blank">Ver Projeto</a>
+            <a href="#" class="btn" target="_blank">Ver Código</a>
+          </div>
+        </div>
+  
+        <div class="project-card">
+          <div class="project-thumb"></div>
+          <h3 class="project-title">Carlos Henrique
+          </h3>
+          <p class="project-description">Motion Designer
+            .</p>
+          <div class="project-buttons">
+            <a href="https://luuiis00057.github.io/Motion-Designer/" class="btn" target="_blank">Ver Projeto</a>
+            <a href="https://github.com/luuiis00057/Motion-Designer.git" class="btn" target="_blank">Ver Código</a>
+          </div>
+        </div>
+        <div class="project-card">
+            <div class="project-thumb"></div>
+            <h3 class="project-title">Projeto 2</h3>
+            <p class="project-description">Breve descrição do projeto que mostra do que se trata.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn" target="_blank">Ver Projeto</a>
+              <a href="#" class="btn" target="_blank">Ver Código</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <h3 class="project-title">Projeto 2</h3>
+            <p class="project-description">Breve descrição do projeto que mostra do que se trata.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn" target="_blank">Ver Projeto</a>
+              <a href="#" class="btn" target="_blank">Ver Código</a>
+            </div>
+          </div>    
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <h3 class="project-title">Projeto 2</h3>
+            <p class="project-description">Breve descrição do projeto que mostra do que se trata.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn" target="_blank">Ver Projeto</a>
+              <a href="#" class="btn" target="_blank">Ver Código</a>
+            </div>
+          </div>    
+          <div class="project-card">
+            <div class="project-thumb"></div>
+            <h3 class="project-title">Projeto 2</h3>
+            <p class="project-description">Breve descrição do projeto que mostra do que se trata.</p>
+            <div class="project-buttons">
+              <a href="#" class="btn" target="_blank">Ver Projeto</a>
+              <a href="#" class="btn" target="_blank">Ver Código</a>
+            </div>
+          </div>    
+
+
+        <!-- Adicione mais projetos aqui -->
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="contact">
+    <div class="contact-content">
+      <h2 class="section-title">Fale Comigo</h2>
+      <p class="contact-text">Tem um projeto em mente ou quer trocar uma ideia? Me manda uma mensagem!</p>
+  
+      <form class="contact-form" action="https://formspree.io/f/movdvear" method="POST">
+        <input type="text" name="nome" placeholder="Seu nome" required />
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+        <textarea name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="btn">Enviar</button>
+      </form>
+      
+  
+      <div class="contact-socials">
+        <a href="https://github.com/luuiis00057" target="_blank">GitHub</a>
+        <a href="https://wa.me/5551991956872" target="_blank">WhatsApp</a>
+        <a href="https://www.instagram.com/luissouzadev/" target="_blank">Instagram</a>
+      </div>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
